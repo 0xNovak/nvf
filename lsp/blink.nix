@@ -9,7 +9,7 @@
       sourcePlugins.emoji.enable = true;
       setupOpts = {
         signature.enabled = false;
-        sources.default = ["lsp" "path" "snippets" "buffer"];
+        sources.default = ["lsp" "path" "snippets" "buffer" "copilot"];
         sources.providers.copilot = {
           module = "blink-copilot";
           name = "Copilot";
